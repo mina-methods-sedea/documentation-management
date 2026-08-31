@@ -17,6 +17,11 @@ entries:
     summary: Record post-sync upstream SHA after center PR #1 merge.
     paths:
       - downstream-change-log.yaml
+  - commitSha: e49fb1d8aaca3da420c7aacdc1d853fdd3276f8a
+    capturedAt: "2026-08-31T19:08:00Z"
+    summary: Capture downstream commits since last synced upstream SHA.
+    paths:
+      - downstream-change-log.yaml
 history:
   - upstreamSha: a84739e48c880a11eec7d04de3366fd3d23bc0e6
     recordedAt: "2026-08-25T13:44:13Z"

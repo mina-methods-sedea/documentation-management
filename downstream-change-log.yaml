@@ -1,5 +1,22 @@
 lastSyncedUpstreamSha: a84739e48c880a11eec7d04de3366fd3d23bc0e6
-entries: []
+entries:
+  - commitSha: 960f164f4ea59f7e6b218c6845c58e1a87425bda
+    capturedAt: "2026-08-31T19:05:00Z"
+    summary: Merge pull request #1 from mina-methods-sedea/improve/documentation-management-upstream-merge
+    paths:
+      - missions/author-multi-part-document/plan.mdc
+      - missions/author-simple-document/plan.mdc
+      - missions/author-simple-document/skills/author/SKILL.md
+      - missions/author-simple-document/skills/document-scaffolder/SKILL.md
+      - missions/author-simple-document/skills/file-synchronizer/SKILL.md
+      - rules/10_required-tools.mdc
+      - scripts/docx-ooxml-normalize.mjs
+      - scripts/docx-ooxml-validate.sh
+  - commitSha: f482bbd859697e398ae87dd5af9880c0f60351ad
+    capturedAt: "2026-08-31T19:05:00Z"
+    summary: Record post-sync upstream SHA after center PR #1 merge.
+    paths:
+      - downstream-change-log.yaml
 history:
   - upstreamSha: a84739e48c880a11eec7d04de3366fd3d23bc0e6
     recordedAt: "2026-08-25T13:44:13Z"
